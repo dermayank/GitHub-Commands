@@ -18,3 +18,15 @@
 
 `$ git remote add [origin] [url]`
 
+### Branch
+
+`$git branch` lists all the local branches
+
+`$git branch -a` lists all the local and remote branches
+
+`$git branch [branch-name]` creates a new local branch
+
+`$git branch -d [branch-name]` delete the local branch
+
+`$git checkout [branch-name]` switch to the branch
+
