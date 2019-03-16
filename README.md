@@ -1,10 +1,8 @@
 # GitHub-Commands
 
->$ git init
-initalizes an empty git hub repository
+>$ git init  initalizes an empty git hub repository
 
->$ git clone [SSH url]
-clones the github repository to local working directory
+>$ git clone [SSH url]  clones the github repository to local working directory
 
 >$ git add .
 
@@ -14,8 +12,7 @@ clones the github repository to local working directory
 
 ## Remote 
 
->$ git remote -v 
-the url of remote directory
+>$ git remote -v   the url of remote directory
 
 >$ git remote remove [origin]
 
