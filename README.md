@@ -30,4 +30,4 @@
 
 `git checkout [branch-name]` switch to the branch
 
-`
+`git status`
