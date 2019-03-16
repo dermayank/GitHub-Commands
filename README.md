@@ -1,20 +1,20 @@
 # GitHub-Commands
 
->$ git init  initalizes an empty git hub repository
+`$ git init`  initalizes an empty git hub repository
 
->$ git clone [SSH url]  clones the github repository to local working directory
+`$ git clone [SSH url]`  clones the github repository to local working directory
 
->$ git add .
+`$ git add .`
 
->$ git commit -m "the commit remark"
+`$ git commit -m "the commit remark"`
 
->$git push origin master 
+`$git push origin master` 
 
-## Remote 
+### Remote 
 
->$ git remote -v   the url of remote directory
+`$ git remote -v`  the url of remote directory
 
->$ git remote remove [origin]
+`$ git remote remove [origin]`
 
->$ git remote add [origin] [url]
+`$ git remote add [origin] [url]`
 
