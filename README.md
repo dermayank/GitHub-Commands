@@ -20,7 +20,7 @@
 
 ### Branch
 
-` git branch` lists all the local branches
+`git branch` lists all the local branches
 
 `git branch -a` lists all the local and remote branches
 
@@ -31,3 +31,21 @@
 `git checkout [branch-name]` switch to the branch
 
 `git status`
+
+### Stashing
+
+`git stash` saves the local changes to the stack
+
+`git stash list` list of stashes made
+
+`git stash apply` it applies topmost stash to the repository
+
+`git stash apply stash@{2}` it applies the stash no. 2 to the repository
+
+`git stash pop` applies the stash and then delete it form the stack
+
+`git stash pop stash@{2}` it applies the stash no. 2 to the repository and the delete it
+
+`git stash clear` deletes all the stashes made in a repository
+
+`git stash drop stash@{2}`	delets only the stash no. 2
