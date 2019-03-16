@@ -29,5 +29,3 @@
 `git branch -d [branch-name]` delete the local branch
 
 `git checkout [branch-name]` switch to the branch
-
-`
