@@ -49,3 +49,11 @@
 `git stash clear` deletes all the stashes made in a repository
 
 `git stash drop stash@{2}`	delets only the stash no. 2
+
+### Undo Commit
+
+`git log` lists all the changes each with unique hash value
+
+`git checkout [commit-hash]` make the working directory point to commit with given hash
+
+`git checkout [branch-name]` makes the branch point to current hash
