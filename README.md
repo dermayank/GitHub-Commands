@@ -1,10 +1,18 @@
 # GitHub-Commands
 
+### Basic 
+
+`git config --global user.name "user-name"` set local username
+
+`git config --global user.email "user-email"` sets local useremail
+
 `git init`  initalizes an empty git hub repository
 
-`git clone [SSH url]`  clones the github repository to local working directory
+`git clone [url]`  clones the github repository to local working directory
 
-`git add .`
+`git add .` add all the files in current directory only
+
+`git add -A` add all the files to staging area
 
 `git commit -m "the commit remark"`
 
