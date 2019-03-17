@@ -56,4 +56,4 @@
 
 `git checkout [commit-hash]` make the working directory point to commit with given hash
 
-`git checkout [branch-name]` makes the branch point to current hash
+`git checkout [branch-name]` makes the branch point to current hash-
