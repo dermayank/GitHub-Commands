@@ -4,7 +4,9 @@
 
 ` git clone [SSH url]`  clones the github repository to local working directory
 
-` git add .`
+` git add .` add all the files in current directory only
+
+`git add -A` add all the files to staging area
 
 ` git commit -m "the commit remark"`
 
