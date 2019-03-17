@@ -50,3 +50,4 @@
 
 `git stash drop stash@{2}`	deletes only the stash no. 2
 
+love you a lot
