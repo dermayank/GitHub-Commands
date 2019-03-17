@@ -12,15 +12,15 @@
 
 ### Remote 
 
-` git remote -v`  the url of remote directory
+`git remote -v`  the url of remote directory
 
-` git remote remove [origin]`
+`git remote remove [origin]`
 
-` git remote add [origin] [url]`
+`git remote add [origin] [url]`
 
 ### Branch
 
-` git branch` lists all the local branches, branch with * is the current branch
+`git branch` lists all the local branches, branch with * is the current branch
 
 `git branch -a` lists all the local and remote branches
 
