@@ -1,28 +1,28 @@
 # GitHub-Commands
 
-` git init`  initalizes an empty git hub repository
+`git init`  initalizes an empty git hub repository
 
-` git clone [SSH url]`  clones the github repository to local working directory
+`git clone [SSH url]`  clones the github repository to local working directory
 
-` git add .` add all the files in current directory only
+`git add .` add all the files in current directory only
 
 `git add -A` add all the files to staging area
 
-` git commit -m "the commit remark"`
+`git commit -m "the commit remark"`
 
 `git push origin master` 
 
 ### Remote 
 
-` git remote -v`  the url of remote directory
+`git remote -v`  the url of remote directory
 
-` git remote remove [origin]`
+`git remote remove [origin]`
 
-` git remote add [origin] [url]`
+`git remote add [origin] [url]`
 
 ### Branch
 
-`git branch` lists all the local branches
+`git branch` lists all the local branches, branch with * is the current branch
 
 `git branch -a` lists all the local and remote branches
 
@@ -50,12 +50,10 @@
 
 `git stash clear` deletes all the stashes made in a repository
 
-`git stash drop stash@{2}`	delets only the stash no. 2
-
 ### Undo Commit
 
 `git log` lists all the changes each with unique hash value
 
 `git checkout [commit-hash]` make the working directory point to commit with given hash
 
-`git checkout [branch-name]` makes the branch point to current hash-
+`git checkout [branch-name]` makes the branch point to current hash
